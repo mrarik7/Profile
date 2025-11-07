@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.header('👤Tarek Amin Arik')
-
+st.subheader('Tarek amin arik')
 col1, col2 = st.columns(2)
 
 with (col1):
@@ -26,6 +26,7 @@ with col2:
     if s4:
         if x == s4:
             st.markdown('[✈️telegram:tarek amin arik](http://t.me/mr_arik7)')
+
 
 
 
