@@ -1,6 +1,12 @@
 import streamlit as st
 
-st.header('ABOUT INFO')
+c1,c2,c3 = st.columns(3)
+with c1:
+    pass
+with c2:
+    st.header('ABOUT INFO')
+with c3:
+    pass
 
 col1, col2 = st.columns(2)
 
@@ -27,6 +33,8 @@ with col2:
     if s4:
         if x == s4:
             st.markdown('[✈️telegram:tarek amin arik](http://t.me/mr_arik7)')
+
+
 
 
 
