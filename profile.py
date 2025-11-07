@@ -19,7 +19,7 @@ with col2:
             st.markdown("[📸instagram:tarek amin arik](https://www.instagram.com/mr.arik7/?hl=en)")
     if s2:
         if x == s2:
-            st.text('currently i dont have a FB account:)')
+            st.text('currently i dont have an FB account:)')
     if s3:
         if x == s3:
             st.markdown('[📞whatsapp:01327329596(arik)](https://wa.me/01327329596)')
@@ -29,5 +29,6 @@ with col2:
 
 
 st.text('-arik')
+
 
 
